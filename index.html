@@ -4,9 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Нетривиальный аудит Аудит.luxe</title>
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/svg">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  
 </head>
 <body>
   <header class="header">
@@ -28,7 +32,7 @@
   </header>
   <section class="choice">
     <div class="container">
-      <h2 class="section-title">Варианты аудита</h2>
+      <h2 class="section-title choice-title">Варианты аудита</h2>
     </div>
       <div class="cards">
 
@@ -42,7 +46,28 @@
                 <h3 class="card-title">Проверка Вашего управляющего (его команды)</h3>
                 <p class="message">Предложение для собственников бизнеса</p>
                 <p class="card-description">Уверены в порядочности и грамотности Вашего управляющего? Есть ощущение, но нет доказательств? Аудит качества управления на предмет злоупотреблений, бездействия, ошибок ответит на эти вопросы! Строго конфиденциально.</p>
-                <a class="section-link" href="#">Узнать больше</a>
+                <a class="section-link test-first" href="">Узнать больше</a>
+                <div class="more-first is-open">
+                  <p class="card-description bold">Проверим Вашего управляющего на:
+                  </p>
+                  <p class="card-description">- обоснованность начислений зарплаты и премий, наличие «мертвых душ»,<br>
+                    - соответствие рынку уровня зарплаты,<br>
+                    - соответствие рынку стоимости закупаемых услуг и материалов,<br>
+                    - несогласованные приобретения ОС,<br>
+                    - признаки по выводу средств с организации,<br>
+                    - качество работы с дебиторской задолженностью и многое другое.</p>
+                  <p class="card-description bold">Дополнительные аспекты:</p>
+                  <p class="card-description"> - с целью обеспечения конфиденциальности проверки в т.ч. возможно заключение договора на проведение аудита бухгалтерской (финансовой) отчетности (обязательного или специального),<br>
+                    - оказание услуги тайного покупателя,<br>
+                    - организация проверки сотрудников на полиграфе, <br>
+                    - дополнительный анализ бизнес-процессов, компетенций и мотивации.</p> 
+                  <p class="card-description bold">Мы все проверим, покажем и расскажем, и если есть – докажем!</p>
+                  <div class="more-container">
+                    <button class="section-button get dark">Получить консультацию</button>
+                    <a href="" class="up-more up-close"><i class="arrow up"></i></a>
+                  </div> 
+                  
+                </div>
               </div>
             </div>
           </div>
@@ -54,7 +79,7 @@
               <div class="card-info">
                 <h3 class="card-title">Выборочный аудит </h3>
                 <p class="card-description">Все службы работают ритмично и согласовано? Есть ли риски в случае государственного контроля? Помимо аудита качества управления проведем проверку любой сферы деятельности предприятия.</p>
-                <a href="" class="section-link">Узнать больше</a>
+                <a href="" class="section-link test">Узнать больше</a>
                 <div class="more is-open">
                   <p class="card-description bold">Проведем аудит службы на предмет организации, взаимодействия, компетенций, мотивации:
                   </p>
@@ -66,7 +91,11 @@
                     - соответствие актуальным требованиям по охране труда, противопожарной безопасности, ГО и ЧС,<br>
                     - и конечно, проводим аудит бухгалтерской (финансовой) отчетности (по стандарту МСА).
                     </p>
-                    <button class="section-button get dark">Получить консультацию</button>
+                    <div class="more-container">
+                      <button class="section-button get dark">Получить консультацию</button>
+                      <a href="" class="up-more second up-close light"><i class="arrow up"></i></a>
+                    </div> 
+                    
                 </div>
               </div>
               <div class="card-image">
@@ -85,7 +114,24 @@
               <div class="card-info">
                 <h3 class="card-title">Комплексный аудит</h3>
                 <p class="card-description">Прибыль в плане? Тренды положительные? Максимальная отдача от бизнеса? Проверка организации с целью получения наиболее полного представления о состоянии бизнеса. В т.ч. с целью проверки актива перед его покупкой (due diligence).</p>
-                <a class="section-link" href="#">Узнать больше</a>
+                <a class="section-link test-second" href="">Узнать больше</a>
+                <div class="more-second is-open">
+                  <p class="card-description bold">Проведем аудит всех служб на предмет организации, взаимодействия, компетенций, мотивации:
+                  </p>
+                  <p class="card-description">- отдел продаж, в т.ч. услуга тайного покупателя и наличие оптовых фирм-прокладок,<br>
+                    - склад, в т.ч. услуга инвентаризации,<br>
+                    - закупочная служба, в т.ч. на завышенные цены на услуги и материалы, вывод средств,<br>
+                    - аудит бухгалтерской (финансовой) отчетности (по стандарту МСА),<br>
+                    - наличие юридических (судебных) рисков и возможностей, в т.ч. проверка типовых ситуаций и документов,<br>
+                    - кадровая служба, в т.ч. на рыночный уровень зарплаты и наличие «мертвых душ», на соответствие критериям ГИТ,<br>
+                    - соответствие актуальным требованиям по охране труда, противопожарной безопасности, ГО и ЧС.
+                    
+                  </p>
+                  <div class="more-container">
+                    <button class="section-button get dark">Получить консультацию</button>
+                    <a href="" class="up-more third up-close"><i class="arrow up"></i></a>
+                  </div> 
+                </div>
               </div>
             </div>
           </div>
@@ -97,7 +143,20 @@
               <div class="card-info">
                 <h3 class="card-title">Сопровождение. Консультация. Обучение.</h3>
                 <p class="card-description">Не умеете читать отчетность? Не у кого или стесняетесь спросить? Не беда! Все покажем и объясним доступным языком и без лишней воды.</p>
-                <a class="section-link dark" href="#">Узнать больше</a>
+                <a class="section-link dark test-third" href="">Узнать больше</a>
+                <div class="more-third is-open">
+                  
+                  <p class="card-description">- обучим читать бухгалтерские и финансовые отчеты, покажем контрольные точки,<br>
+                    - составим план самостоятельного контроля после прохождения нашего аудита,<br>
+                    - разработаем специальные отчеты под нужды Вашей организации,<br>
+                    - консультации и сопровождение по любым вопросам.
+                    
+                  </p>
+                  <div class="more-container">
+                    <button class="section-button get dark">Получить консультацию</button>
+                    <a href="" class="up-more four up-close light"><i class="arrow up"></i></a>
+                  </div> 
+                </div>
               </div>
               <div class="card-image">
                 <img src="img/chat.png" alt="chat" class="chat">
@@ -109,7 +168,113 @@
       </div>
     
     
+        
+        </div>
+
   </section>
+  <div class="container">
+    <!-- Slider main container -->
+    <div class="swiper-container tablet-cards">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="img/darts.png" alt="darts" class="slider-icon">
+          <div class="card-info tablet-card">
+            <h3 class="card-title">Проверка Вашего управляющего</h3>
+            <p class="message">Предложение для собственников бизнеса</p>
+            <p class="card-description">Уверены в порядочности и грамотности Вашего управляющего? Есть ощущение, но нет доказательств? Аудит качества управления на предмет злоупотреблений, бездействия, ошибок ответит на эти вопросы! Строго конфиденциально.</p>
+            <a class="section-link test-first" href="">Узнать больше</a>
+            <div class="more-first is-open">
+              <p class="card-description bold">Проверим Вашего управляющего на:
+              </p>
+              <p class="card-description">- обоснованность начислений зарплаты и премий, наличие «мертвых душ»,<br>
+                - соответствие рынку уровня зарплаты,<br>
+                - соответствие рынку стоимости закупаемых услуг и материалов,<br>
+                - несогласованные приобретения ОС,<br>
+                - признаки по выводу средств с организации,<br>
+                - качество работы с дебиторской задолженностью и многое другое.</p>
+              <p class="card-description bold">Дополнительные аспекты:</p>
+              <p class="card-description"> - с целью обеспечения конфиденциальности проверки в т.ч. возможно заключение договора на проведение аудита бухгалтерской (финансовой) отчетности (обязательного или специального),<br>
+                - оказание услуги тайного покупателя,<br>
+                - организация проверки сотрудников на полиграфе, <br>
+                - дополнительный анализ бизнес-процессов, компетенций и мотивации.</p> 
+              <p class="card-description bold">Мы все проверим, покажем и расскажем, и если есть – докажем!</p>
+              <div class="more-container">
+                <button class="section-button get dark">Получить консультацию</button>
+                <a href="" class="up-more up-close"><i class="arrow up"></i></a>
+              </div> 
+              
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="img/darts.png" alt="darts" class="slider-icon">
+          <div class="card-info tablet-card">
+            <h3 class="card-title">Проверка Вашего управляющего</h3>
+            <p class="message">Предложение для собственников бизнеса</p>
+            <p class="card-description">Уверены в порядочности и грамотности Вашего управляющего? Есть ощущение, но нет доказательств? Аудит качества управления на предмет злоупотреблений, бездействия, ошибок ответит на эти вопросы! Строго конфиденциально.</p>
+            <a class="section-link test-first" href="">Узнать больше</a>
+            <div class="more-first is-open">
+              <p class="card-description bold">Проверим Вашего управляющего на:
+              </p>
+              <p class="card-description">- обоснованность начислений зарплаты и премий, наличие «мертвых душ»,<br>
+                - соответствие рынку уровня зарплаты,<br>
+                - соответствие рынку стоимости закупаемых услуг и материалов,<br>
+                - несогласованные приобретения ОС,<br>
+                - признаки по выводу средств с организации,<br>
+                - качество работы с дебиторской задолженностью и многое другое.</p>
+              <p class="card-description bold">Дополнительные аспекты:</p>
+              <p class="card-description"> - с целью обеспечения конфиденциальности проверки в т.ч. возможно заключение договора на проведение аудита бухгалтерской (финансовой) отчетности (обязательного или специального),<br>
+                - оказание услуги тайного покупателя,<br>
+                - организация проверки сотрудников на полиграфе, <br>
+                - дополнительный анализ бизнес-процессов, компетенций и мотивации.</p> 
+              <p class="card-description bold">Мы все проверим, покажем и расскажем, и если есть – докажем!</p>
+              <div class="more-container">
+                <button class="section-button get dark">Получить консультацию</button>
+                <a href="" class="up-more up-close"><i class="arrow up"></i></a>
+              </div> 
+              
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="img/darts.png" alt="darts" class="slider-icon">
+          <div class="card-info tablet-card">
+            <h3 class="card-title">Проверка Вашего управляющего</h3>
+            <p class="message">Предложение для собственников бизнеса</p>
+            <p class="card-description">Уверены в порядочности и грамотности Вашего управляющего? Есть ощущение, но нет доказательств? Аудит качества управления на предмет злоупотреблений, бездействия, ошибок ответит на эти вопросы! Строго конфиденциально.</p>
+            <a class="section-link test-first" href="">Узнать больше</a>
+            <div class="more-first is-open">
+              <p class="card-description bold">Проверим Вашего управляющего на:
+              </p>
+              <p class="card-description">- обоснованность начислений зарплаты и премий, наличие «мертвых душ»,<br>
+                - соответствие рынку уровня зарплаты,<br>
+                - соответствие рынку стоимости закупаемых услуг и материалов,<br>
+                - несогласованные приобретения ОС,<br>
+                - признаки по выводу средств с организации,<br>
+                - качество работы с дебиторской задолженностью и многое другое.</p>
+              <p class="card-description bold">Дополнительные аспекты:</p>
+              <p class="card-description"> - с целью обеспечения конфиденциальности проверки в т.ч. возможно заключение договора на проведение аудита бухгалтерской (финансовой) отчетности (обязательного или специального),<br>
+                - оказание услуги тайного покупателя,<br>
+                - организация проверки сотрудников на полиграфе, <br>
+                - дополнительный анализ бизнес-процессов, компетенций и мотивации.</p> 
+              <p class="card-description bold">Мы все проверим, покажем и расскажем, и если есть – докажем!</p>
+              <div class="more-container">
+                <button class="section-button get dark">Получить консультацию</button>
+                <a href="" class="up-more up-close"><i class="arrow up"></i></a>
+              </div> 
+              
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+        <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
   <section class="process">
     <h2 class="section-title">Как проходит <span class="color">Аудит.luxe</span></h2>
     <div class="content-process">
@@ -117,26 +282,34 @@
 
         <div class="step">
           <img src="img/step-1.svg" alt="step" class="step-img">
-          <h5 class="step-title">Консультация&nbsp;<span class="free">бесплатно</span></h5>
-          <p class="step-description">По телефону или при личной встрече.</p>
+          <div class="step-content">
+            <h5 class="step-title">Консультация <span class="free">бесплатно</span></h5>
+            <p class="step-description">По телефону или при личной встрече.</p>
+          </div>
         </div>
 
         <div class="step">
           <img src="img/step-2.svg" alt="step" class="step-img">
-          <h5 class="step-title">Выбор программы аудита</h5>
-          <p class="step-description">Определение наиболее важных мест и глубины проверки.</p>
+          <div class="step-content">
+            <h5 class="step-title">Выбор программы аудита</h5>
+            <p class="step-description">Определение наиболее важных мест и глубины проверки.</p>
+          </div>
         </div>
 
         <div class="step">
           <img src="img/step-3.svg" alt="step" class="step-img">
-          <h5 class="step-title">Заключение договора</h5>
-          <p class="step-description">В т. ч. посредством договора обязательного аудита.</p>
+          <div class="step-content">
+            <h5 class="step-title">Заключение договора</h5>
+            <p class="step-description">В т. ч. посредством договора обязательного аудита.</p>
+          </div>
         </div>
 
         <div class="step">
           <img src="img/step-4.svg" alt="step" class="step-img">
-          <h5 class="step-title">Получение результата</h5>
-          <p class="step-description">В виде письменного отчета и очной встречи с подробными комментариями.</p>
+          <div class="step-content">
+            <h5 class="step-title">Получение результата</h5>
+            <p class="step-description">В виде письменного отчета и очной встречи с подробными комментариями.</p>
+          </div>
         </div>
 
       </div>
@@ -155,10 +328,14 @@
           <a href="mailto:start@audit.luxe" class="footer-mail"><img src="img/mail.svg" alt="mail" class="footer-icon">start@audit.luxe</a>
         </div>
       </div>
-      <div class="footer-arrow">></div>
+      <div class="logo-footer">
+        <img src="img/footer-logo.png" alt="logo" class="footer-logo tablet">
+      </div>
+      <div class="footer-arrow"><a href="" class="footer-arrow"><i class="arrow up"></i></a></div>
     </div>
   </footer>
-  <link rel="stylesheet" href="js/main.js">
+  <script src="js/main.js"></script>
+  <script src="js/swiper.min.js"></script>
 </body>
 </html>
 
