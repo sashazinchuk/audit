@@ -14,6 +14,18 @@ const testThird = document.querySelector('.test-third');
 const moreThird = document.querySelector('.more-third');
 const upMoreFour = document.querySelector('.four');
 
+const moreTabletOne = document.querySelector('.more-tablet-one');
+const infoTabletOne = document.querySelector('.info-tablet-one');
+
+
+moreTabletOne.addEventListener('click', (e) => {
+  e.preventDefault();
+  moreElem.classList.toggle('is-open');
+  moreTabletOne.classList.toggle('close-more');
+});
+
+
+
 testButton.addEventListener('click', (e) => {
   e.preventDefault();
   moreElem.classList.toggle('is-open');
@@ -50,7 +62,7 @@ upMoreFour.addEventListener('click', (e) => {
 
 var mySwiper = new Swiper ('.swiper-container', {
   // Optional parameters
-  direction: 'vertical',
+ 
   loop: true,
   navigation: {
     nextEl: ".swiper-button-next",
