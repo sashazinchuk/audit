@@ -126,4 +126,74 @@
     display: block;
     color: #000;
   }
+  .process {
+    display: none;
+  }
+  .process-tablet {
+    display: block;
+  }
+  .process-content-tablet {
+    display: flex;
+    justify-content: space-between;
+  }
+  .steps-tablet {
+    flex-basis: 83%;
+  }
+  .step-title-tablet {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+  }
+  .step-description-tablet {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .section-title-tablet-steps {
+    margin-bottom: 40px;
+  }
+  .step-img-tablet:after {
+    width: 43px;
+    height: 0px;
+    content: '';
+    opacity: 0.4;
+    border-right: 3px solid #AFAFAF;
+    transform: rotate(90deg);
+    margin-left: -30px;
+  }
+  .step-img {
+    padding-top: 10px;
+  }
+  .step-tablet {
+    padding-top: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    display: none;
+  }
+  .header-mobile {
+    display: block;
+  }
+  .logo-mobile {
+    max-width: 83px;
+  }
+  .main-title-mobile {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 22px;
+  }
+  .main-description-mobile {
+    font-size: 15px;
+    text-align: center;
+  }
+  .image-col {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .main-mobile {
+    max-width: 139px;
+  }
 }
