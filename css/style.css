@@ -326,7 +326,7 @@ i {
 }*/
 .step-img:after {
   position: absolute;
-  width: 250px;
+  max-width: 250px;
   content: '';
   height: 1px;
   margin-left: 65px;
