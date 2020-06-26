@@ -99,6 +99,10 @@
   .choice {
     display: none;
   }
+  .slider-tablet {
+    display: block;
+    margin-top: 50px;
+  }
   .tablet-cards {
     display: block;
   }
