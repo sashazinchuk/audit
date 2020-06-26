@@ -262,6 +262,7 @@ body {
 }
 .up-more:hover {
   background-color: #404040;
+  transition: 1s;
   
 }
 .light {
@@ -269,15 +270,18 @@ body {
 }
 .main-button:hover, .section-button:hover {
   color: #000000;
+  transition: 1s;
 }
 .section-button:hover {
-  border: 3px solid #000000;
+  border: 3px solid #000000; 
+  transition: 3s;
 }
 .section-link:hover {
   background: #404040;
   border-radius: 5px;
   color: #EFC337;
   border: 3px solid #404040;
+  transition: 1s;
 }
 i {
   border: solid black;
